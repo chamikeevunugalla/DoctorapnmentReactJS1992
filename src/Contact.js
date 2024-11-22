@@ -11,7 +11,7 @@ const Contact = () => {
             <h2 className="text-center mb-4">Contact Us</h2>
             <form className="mx-auto" style={{ maxWidth: "600px" }}>
                 <div className="mb-3">
-                    <label htmlFor="name" className="form-label">Name</label>
+                    <label htmlFor="name" className="form-label">Name of patient</label>
                     <input type="text" className="form-control" id="name" placeholder="Enter your name" required />
                 </div>
                 <div className="mb-3">
