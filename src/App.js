@@ -17,7 +17,7 @@ function App() {
         <Routes> {/* Use Routes instead of Switch */}
           <Route path="/" element={<Home />} /> {/* Use 'element' instead of children */}
           <Route path="/about" element={<About />} />
-          <Route path="/services" element={<h1>Services Page</h1>} />
+          <Route path="/services" element={<h1>Our Services</h1>} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
